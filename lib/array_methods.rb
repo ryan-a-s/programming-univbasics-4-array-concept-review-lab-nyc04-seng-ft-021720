@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   array.length.times { |index|
-    array.include?(value_to_find)
+    array[index].include?(value_to_find)
     puts index
   }
 end
